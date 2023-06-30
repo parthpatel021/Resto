@@ -14,6 +14,7 @@ function Menu(){
                     {menuData.map((item,index) => {
                         return(<MenuCard 
                             key = {index}
+                            id = {index}
                             name = {item.name}
                             about = {item.about}
                             img = {item.img}

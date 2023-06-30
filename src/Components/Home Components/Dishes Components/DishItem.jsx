@@ -15,7 +15,7 @@ function DishItem(props){
                 <RatingStarts rating={props.rating}/>
             </div>
             <span>{props.price+"₹"}</span>
-            <a href="#" className="btn">add to cart</a>
+            <a href="/" className="btn">add to cart</a>
         </div>
     );
 }

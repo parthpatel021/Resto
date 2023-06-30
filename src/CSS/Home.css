@@ -4,7 +4,6 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    padding-top: 9rem;
 }
 .home .home-slider .slide .content{
     flex: 1 1 45rem;
