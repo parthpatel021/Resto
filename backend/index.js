@@ -16,30 +16,30 @@ main().catch(err => console.log(err));
 
 async function main() {
 
-await mongoose.connect('mongodb://127.0.0.1:27017/fruitsDB');
-mongoose.set("useCreateIndex", true);
+    await mongoose.connect('mongodb://127.0.0.1:27017/restoDB');
+    mongoose.set("useCreateIndex", true);
 
-// //Fruits Insertion
-// const fruitSchema = new mongoose.Schema({
-//     name: {
-//         type: String,
-//         required: true
-//     },
-//     rating: {
-//         type: Number,
-//         min: 1,
-//         max: 10
-//     },
-//     review: String
-// });
-// // New Collection
-// const Fruit = mongoose.model("Fruit", fruitSchema);
+    // //Fruits Insertion
+    // const fruitSchema = new mongoose.Schema({
+    //     name: {
+    //         type: String,
+    //         required: true
+    //     },
+    //     rating: {
+    //         type: Number,
+    //         min: 1,
+    //         max: 10
+    //     },
+    //     review: String
+    // });
+    // // New Collection
+    // const Fruit = mongoose.model("Fruit", fruitSchema);
 
-app.get("/",async function(req,res){
-    res.send("Backend is working!");
-});
+    app.get("/",async function(req,res){
+        res.send("Backend is working!");
+    });
 
-app.listen(5000,async function() {
-    console.log("Server started on port 5000");
-});  
+    app.listen(5000,async function() {
+        console.log("Server started on port 5000");
+    });  
 }

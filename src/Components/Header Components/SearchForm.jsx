@@ -1,4 +1,5 @@
 import React from "react";
+import "../../CSS/Header.css";
 
 function SearchForm(props){
     return (
