@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import RatingStarts from "../RatingStarts";
 import "../../CSS/Menu.css";
 
@@ -8,7 +9,7 @@ function MenuCard(props){
             <div className="box">
                 <div className="image">
                     <img src={props.img} alt="" />
-                    <a href="#" className="fas fa-heart"></a>
+                    <Link to="/" classNa    me="fas fa-heart"></Link>
                 </div>
                 <div className="content">
                     <div className="stars">
@@ -17,7 +18,7 @@ function MenuCard(props){
                 
                     <h3>{props.name}</h3>
                     <p>{props.about}</p>
-                    <a href="#" className="btn">add to cart</a>
+                    <Link href="/" className="btn">add to cart</Link>
                     <span className="price">{props.price+"₹"}</span>
                 </div>
             </div>

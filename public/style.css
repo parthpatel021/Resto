@@ -25,6 +25,7 @@ html{
 
 section{
     padding: 2rem 9%;
+    margin-top: 5rem;
 }
 /* section div:nth-child(even){
     background: #eee;

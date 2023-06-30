@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "../CSS/Footer.css";
 
 function Footer(){
@@ -8,34 +9,34 @@ function Footer(){
                 <div className="box-container">
                     <div className="box">
                         <h3>locations</h3>
-                        <a href="#">india</a>
-                        <a href="#">japan</a>
-                        <a href="#">russia</a>
-                        <a href="#">USA</a>
-                        <a href="#">france</a>
+                        <Link to="/">india</Link>
+                        <Link to="/">japan</Link>
+                        <Link to="/">russia</Link>
+                        <Link to="/">USA</Link>
+                        <Link to="/">france</Link>
                     </div>
                     <div className="box">
                         <h3>quick links</h3>
-                        <a href="#">home</a>
-                        <a href="#">dishes</a>
-                        <a href="#">menu</a>
-                        <a href="#">review</a>
-                        <a href="#">order</a>
+                        <Link to="/">home</Link>
+                        <Link to="/about">about</Link>
+                        <Link to="/menu">menu</Link>
+                        <Link to="/review">review</Link>
+                        <Link to="/cart">cart</Link>
                     </div>
                     <div className="box">
                         <h3>contact info</h3>
-                        <a href="#">+123-456-7890</a>
-                        <a href="#">+111-222-3333</a>
-                        <a href="#">shaikhanas@gmail.com</a>
-                        <a href="#">anasbhai@gmail.com</a>
-                        <a href="#">mumbai,india - 400104</a>
+                        <Link to="/">+123-456-7890</Link>
+                        <Link to="/">+111-222-3333</Link>
+                        <Link to="/">shaikhanas@gmail.com</Link>
+                        <Link to="/">anasbhai@gmail.com</Link>
+                        <Link to="/">mumbai,india - 400104</Link>
                     </div>
                     <div className="box">
                         <h3>follow us</h3>
-                        <a href="#">facebook</a>
-                        <a href="#">twitter</a>
-                        <a href="#">instagram</a>
-                        <a href="#">linkdin</a>
+                        <Link to="/">facebook</Link>
+                        <Link to="/">twitter</Link>
+                        <Link to="/">instagram</Link>
+                        <Link to="/">linkdin</Link>
                     </div>
 
                 </div>
